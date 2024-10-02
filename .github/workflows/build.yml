@@ -23,11 +23,11 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       -
-        name: Build and push search backend
+        name: Build and push
         uses: docker/build-push-action@v2
         with:
           context: .
           push: true
           tags: |
-            ghcr.io/TBLGAY/libregister
-            ghcr.io/TBLGAY/libregister:${{ github.sha }}
+            ghcr.io/tblgay/libregister
+            ghcr.io/tblgay/libregister:${{ github.sha }}
