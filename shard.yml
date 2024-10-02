@@ -1,0 +1,24 @@
+name: tblgay-library-register
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  qr-code:
+    github: spider-gazelle/qr-code
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of tblgay-library-register
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
